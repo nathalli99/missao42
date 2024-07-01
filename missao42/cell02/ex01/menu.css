@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: orange;
+}
+
+nav li{
+    list-style: none;
+    padding: 15px 0;
+    position: relative;
+}
+
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 25px;
+}
+
+nav li a:hover{
+    transition: linear 0.3s;
+    background-color: darkorange;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;   
+}
+
+nav li:hover .dropdown{
+    display: flex;
+    flex-direction: column;
+    color: red;
+    margin-top: 15px;
+    background-color: lightsalmon;
+    box-shadow: 9px 9px 9px orange;
+}

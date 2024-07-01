@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.parallax-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-one, .container-two, .container-three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+}
+
+.container-one {
+    background-image: url(NJ_HowSweet_35.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 22px;
+}
+
+.container-two {
+    background-color: black;
+}
+
+.container-three {
+    background-image: url(NJ_HowSweet_37.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
